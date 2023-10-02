@@ -9,7 +9,10 @@ public class Main {
         System.out.println(checkForWalk(18, 17));
         System.out.println(checkForWalk(51, -3));
         System.out.println(checkForWalk(12, -1));
-        System.out.println(checkForWalk(generateRandomAge(), -1));
+
+
+        System.out.println(checkForWalk(generateRandomAge(), 10));
+        // при значении temp = 10 всегда будет положительный ответ
     }
 
     public static String checkForWalk(int age, int temp) {
